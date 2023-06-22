@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>Sign Up |E-cell NITS</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="stylings.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <section class="sheader">
+    <nav id="top" >
+        <a href= "index.html"><img src="images/ecell-logo-bw2_sayvqp copy.webp" width="30%"></a>
+ <div class="nav-links" id="navLinks">
+
+            <i class =" fa fa-times" onclick="hideMenu()"></i>
+            
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#about1">About us</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="Resources.html">Resources</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Sign-up.html">Sign Up</a></li>
+
+
+            </ul>
+            </div>
+
+        </div>
+        <i class ="  fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        </section>
+        <section class="si">
+        <div class="signup-box">
+            <h1>Sign-Up</h1>
+            <h4>Its free and only take a minute</h4>
+            <form>
+                <label>First name</label>
+                <input type="text" placeholder=" Enter your First name">
+                <label>Last name</label>
+                <input type="text" placeholder=" Enter your last name">
+                <label>Email</label>
+                <input type="email" placeholder=" Enter your Email">
+                <label>Password</label>
+                <input type="password" placeholder=" Enter your Password">
+                <label> Confirm Password</label>
+                <input type="password" placeholder=" Confirm your Password">
+                <input type="button"  value="SUBMIT">
+            </form>
+            <p>By clicking the Sign-up button ,you agree to our <br>
+                <a href ="#">Terms and conditions</a> and <a href="#">Policy and Privacy</a></p>
+                <p class="para2">Already have an account?<a href="login.html" >Login here </a></p>
+        </div>
+        </section>
+
+        <section class="container">
+            <h2  >Contact us</h2>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Leave a Message</h3>
+                    <form >
+                        <p><input type="text" name="name" id="name" placeholder="Your name"></p><br>
+                    <p><input type="email" name="email" id="email" placeholder="Your Email"></p><br>
+                   <p><textarea name="Message"id="Message" cols="30" rows="8" placeholder="Your message"></textarea></p>
+                    <input type="submit" value="SUBMIT">
+                    </form>
+        
+                </div>
+                <div  style="font-size: 3vw;" class="contact-right">
+                     <h3>Follow us on</h3>
+                     <section class="icons">
+        
+        <i class="fa-brands fa-facebook"></i>
+                        <a href="https://www.facebook.com/ecell.nit.silchar?mibextid=ZbWKwL" target="_blank">Facebook</a>&nbsp;&nbsp;&nbsp;|
+                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.instagram.com/ecell.nitsilchar/?igshid=YmMyMTA2M2Y%3D" target="_blank">Instagram</a>&nbsp;&nbsp;&nbsp;|
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/company/ecell-nit-silchar/" target="_blank">Linkedln</a>
+                    
+                        </section>
+                     <table>
+                        <tr>
+                            <td>Email  :</td>
+                            <td> ecell@nits.ac.in</td>
+                        </tr>
+                        <tr>
+                            <td>Mobile number :</td>
+                            <td>+91 70803 21900</td>
+                        </tr>
+                        <tr>
+                            <td>Address :</td>
+                            <td>Startup-center,Nit silchar,Assam,India-788010</td>
+                        </tr>
+                     </table>
+                    
+                </div>
+            </div>
+            <a href="#top">Back to top</a>
+            
+           
+        </section>
+        
+        
+        <script>
+            var navLinks=document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+        
+            }
+        </script>
+        <section class="footer">
+            <p>All rights reserved @ E-cell, Nit Silchar</p>
+        
+        </section>
+        
+            
+            
+        </body>
+        </html>
